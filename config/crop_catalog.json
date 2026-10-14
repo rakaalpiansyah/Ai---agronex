@@ -1,0 +1,872 @@
+{
+  "version": "1.1.0",
+  "crops": [
+    {
+      "crop_id": "padi_sawah",
+      "name": "Padi Sawah",
+      "scientific_name": "Oryza sativa",
+      "category": "Cereal",
+      "temperature_c": {
+        "min_abs": 15.0,
+        "min_opt": 22.0,
+        "max_opt": 31.0,
+        "max_abs": 38.0
+      },
+      "soil_ph": {
+        "min_abs": 4.5,
+        "min_opt": 5.5,
+        "max_opt": 7.0,
+        "max_abs": 8.5
+      },
+      "soil_moisture_vwc": {
+        "min_abs": 35.0,
+        "min_opt": 55.0,
+        "max_opt": 90.0,
+        "max_abs": 100.0
+      },
+      "seasonal_rainfall_mm": {
+        "min_abs": 700.0,
+        "min_opt": 1000.0,
+        "max_opt": 2200.0,
+        "max_abs": 3500.0
+      },
+      "max_ec_ds_m": 3.0,
+      "gdd": {
+        "t_base": 10.0,
+        "maturity_gdd": 1600.0
+      },
+      "kc": {
+        "initial": 1.05,
+        "mid": 1.20,
+        "late": 0.90
+      },
+      "nutrient_demand_kg_ha": {
+        "n": 120.0,
+        "p": 45.0,
+        "k": 60.0
+      },
+      "yield_potential_ton_ha": {
+        "pessimistic": 4.5,
+        "normal": 6.0,
+        "optimistic": 7.5
+      },
+      "growth_duration_days": 115
+    },
+    {
+      "crop_id": "jagung_hibrida",
+      "name": "Jagung Hibrida",
+      "scientific_name": "Zea mays",
+      "category": "Cereal",
+      "temperature_c": {
+        "min_abs": 10.0,
+        "min_opt": 21.0,
+        "max_opt": 30.0,
+        "max_abs": 38.0
+      },
+      "soil_ph": {
+        "min_abs": 5.0,
+        "min_opt": 5.8,
+        "max_opt": 7.2,
+        "max_abs": 8.0
+      },
+      "soil_moisture_vwc": {
+        "min_abs": 22.0,
+        "min_opt": 40.0,
+        "max_opt": 70.0,
+        "max_abs": 85.0
+      },
+      "seasonal_rainfall_mm": {
+        "min_abs": 400.0,
+        "min_opt": 600.0,
+        "max_opt": 1200.0,
+        "max_abs": 2000.0
+      },
+      "max_ec_ds_m": 2.5,
+      "gdd": {
+        "t_base": 10.0,
+        "maturity_gdd": 1400.0
+      },
+      "kc": {
+        "initial": 0.40,
+        "mid": 1.20,
+        "late": 0.60
+      },
+      "nutrient_demand_kg_ha": {
+        "n": 150.0,
+        "p": 60.0,
+        "k": 70.0
+      },
+      "yield_potential_ton_ha": {
+        "pessimistic": 5.0,
+        "normal": 7.2,
+        "optimistic": 9.5
+      },
+      "growth_duration_days": 105
+    },
+    {
+      "crop_id": "kedelai",
+      "name": "Kedelai",
+      "scientific_name": "Glycine max",
+      "category": "Legume",
+      "temperature_c": {
+        "min_abs": 10.0,
+        "min_opt": 22.0,
+        "max_opt": 30.0,
+        "max_abs": 36.0
+      },
+      "soil_ph": {
+        "min_abs": 5.2,
+        "min_opt": 6.0,
+        "max_opt": 7.0,
+        "max_abs": 7.8
+      },
+      "soil_moisture_vwc": {
+        "min_abs": 20.0,
+        "min_opt": 35.0,
+        "max_opt": 65.0,
+        "max_abs": 80.0
+      },
+      "seasonal_rainfall_mm": {
+        "min_abs": 350.0,
+        "min_opt": 500.0,
+        "max_opt": 900.0,
+        "max_abs": 1500.0
+      },
+      "max_ec_ds_m": 2.0,
+      "gdd": {
+        "t_base": 10.0,
+        "maturity_gdd": 1250.0
+      },
+      "kc": {
+        "initial": 0.40,
+        "mid": 1.15,
+        "late": 0.50
+      },
+      "nutrient_demand_kg_ha": {
+        "n": 40.0,
+        "p": 50.0,
+        "k": 60.0
+      },
+      "yield_potential_ton_ha": {
+        "pessimistic": 1.4,
+        "normal": 2.2,
+        "optimistic": 3.0
+      },
+      "growth_duration_days": 85
+    },
+    {
+      "crop_id": "kacang_tanah",
+      "name": "Kacang Tanah",
+      "scientific_name": "Arachis hypogaea",
+      "category": "Legume",
+      "temperature_c": {
+        "min_abs": 12.0,
+        "min_opt": 23.0,
+        "max_opt": 31.0,
+        "max_abs": 37.0
+      },
+      "soil_ph": {
+        "min_abs": 5.3,
+        "min_opt": 6.0,
+        "max_opt": 6.8,
+        "max_abs": 7.5
+      },
+      "soil_moisture_vwc": {
+        "min_abs": 18.0,
+        "min_opt": 30.0,
+        "max_opt": 60.0,
+        "max_abs": 75.0
+      },
+      "seasonal_rainfall_mm": {
+        "min_abs": 300.0,
+        "min_opt": 500.0,
+        "max_opt": 850.0,
+        "max_abs": 1300.0
+      },
+      "max_ec_ds_m": 2.2,
+      "gdd": {
+        "t_base": 13.0,
+        "maturity_gdd": 1300.0
+      },
+      "kc": {
+        "initial": 0.40,
+        "mid": 1.15,
+        "late": 0.60
+      },
+      "nutrient_demand_kg_ha": {
+        "n": 30.0,
+        "p": 40.0,
+        "k": 50.0
+      },
+      "yield_potential_ton_ha": {
+        "pessimistic": 1.6,
+        "normal": 2.4,
+        "optimistic": 3.2
+      },
+      "growth_duration_days": 95
+    },
+    {
+      "crop_id": "cabai_merah",
+      "name": "Cabai Merah",
+      "scientific_name": "Capsicum annuum",
+      "category": "Horticulture",
+      "temperature_c": {
+        "min_abs": 15.0,
+        "min_opt": 21.0,
+        "max_opt": 29.0,
+        "max_abs": 35.0
+      },
+      "soil_ph": {
+        "min_abs": 5.5,
+        "min_opt": 6.0,
+        "max_opt": 6.8,
+        "max_abs": 7.2
+      },
+      "soil_moisture_vwc": {
+        "min_abs": 25.0,
+        "min_opt": 40.0,
+        "max_opt": 65.0,
+        "max_abs": 80.0
+      },
+      "seasonal_rainfall_mm": {
+        "min_abs": 400.0,
+        "min_opt": 600.0,
+        "max_opt": 1100.0,
+        "max_abs": 1800.0
+      },
+      "max_ec_ds_m": 1.7,
+      "gdd": {
+        "t_base": 12.0,
+        "maturity_gdd": 1500.0
+      },
+      "kc": {
+        "initial": 0.60,
+        "mid": 1.05,
+        "late": 0.80
+      },
+      "nutrient_demand_kg_ha": {
+        "n": 180.0,
+        "p": 120.0,
+        "k": 150.0
+      },
+      "yield_potential_ton_ha": {
+        "pessimistic": 8.0,
+        "normal": 12.5,
+        "optimistic": 18.0
+      },
+      "growth_duration_days": 120
+    },
+    {
+      "crop_id": "tomat",
+      "name": "Tomat",
+      "scientific_name": "Solanum lycopersicum",
+      "category": "Horticulture",
+      "temperature_c": {
+        "min_abs": 12.0,
+        "min_opt": 19.0,
+        "max_opt": 27.0,
+        "max_abs": 34.0
+      },
+      "soil_ph": {
+        "min_abs": 5.5,
+        "min_opt": 6.2,
+        "max_opt": 6.8,
+        "max_abs": 7.5
+      },
+      "soil_moisture_vwc": {
+        "min_abs": 25.0,
+        "min_opt": 45.0,
+        "max_opt": 70.0,
+        "max_abs": 82.0
+      },
+      "seasonal_rainfall_mm": {
+        "min_abs": 400.0,
+        "min_opt": 600.0,
+        "max_opt": 1000.0,
+        "max_abs": 1600.0
+      },
+      "max_ec_ds_m": 2.5,
+      "gdd": {
+        "t_base": 10.0,
+        "maturity_gdd": 1350.0
+      },
+      "kc": {
+        "initial": 0.60,
+        "mid": 1.15,
+        "late": 0.80
+      },
+      "nutrient_demand_kg_ha": {
+        "n": 140.0,
+        "p": 90.0,
+        "k": 160.0
+      },
+      "yield_potential_ton_ha": {
+        "pessimistic": 18.0,
+        "normal": 28.0,
+        "optimistic": 40.0
+      },
+      "growth_duration_days": 100
+    },
+    {
+      "crop_id": "sawi_hijau",
+      "name": "Sawi Hijau (Caisim)",
+      "scientific_name": "Brassica rapa var. parachinensis",
+      "category": "Horticulture",
+      "temperature_c": {
+        "min_abs": 10.0,
+        "min_opt": 18.0,
+        "max_opt": 28.0,
+        "max_abs": 35.0
+      },
+      "soil_ph": {
+        "min_abs": 5.5,
+        "min_opt": 6.0,
+        "max_opt": 6.8,
+        "max_abs": 7.5
+      },
+      "soil_moisture_vwc": {
+        "min_abs": 30.0,
+        "min_opt": 50.0,
+        "max_opt": 75.0,
+        "max_abs": 85.0
+      },
+      "seasonal_rainfall_mm": {
+        "min_abs": 300.0,
+        "min_opt": 500.0,
+        "max_opt": 1000.0,
+        "max_abs": 1500.0
+      },
+      "max_ec_ds_m": 2.0,
+      "gdd": {
+        "t_base": 8.0,
+        "maturity_gdd": 600.0
+      },
+      "kc": {
+        "initial": 0.50,
+        "mid": 1.05,
+        "late": 0.90
+      },
+      "nutrient_demand_kg_ha": {
+        "n": 90.0,
+        "p": 50.0,
+        "k": 80.0
+      },
+      "yield_potential_ton_ha": {
+        "pessimistic": 12.0,
+        "normal": 18.0,
+        "optimistic": 25.0
+      },
+      "growth_duration_days": 35
+    },
+    {
+      "crop_id": "bawang_merah",
+      "name": "Bawang Merah",
+      "scientific_name": "Allium cepa var. aggregatum",
+      "category": "Horticulture",
+      "temperature_c": {
+        "min_abs": 18.0,
+        "min_opt": 25.0,
+        "max_opt": 32.0,
+        "max_abs": 36.0
+      },
+      "soil_ph": {
+        "min_abs": 5.6,
+        "min_opt": 6.0,
+        "max_opt": 6.8,
+        "max_abs": 7.5
+      },
+      "soil_moisture_vwc": {
+        "min_abs": 25.0,
+        "min_opt": 40.0,
+        "max_opt": 60.0,
+        "max_abs": 75.0
+      },
+      "seasonal_rainfall_mm": {
+        "min_abs": 250.0,
+        "min_opt": 350.0,
+        "max_opt": 700.0,
+        "max_abs": 1200.0
+      },
+      "max_ec_ds_m": 1.8,
+      "gdd": {
+        "t_base": 10.0,
+        "maturity_gdd": 1100.0
+      },
+      "kc": {
+        "initial": 0.50,
+        "mid": 1.05,
+        "late": 0.75
+      },
+      "nutrient_demand_kg_ha": {
+        "n": 120.0,
+        "p": 80.0,
+        "k": 120.0
+      },
+      "yield_potential_ton_ha": {
+        "pessimistic": 6.0,
+        "normal": 10.0,
+        "optimistic": 15.0
+      },
+      "growth_duration_days": 65
+    },
+    {
+      "crop_id": "singkong",
+      "name": "Singkong (Ubi Kayu)",
+      "scientific_name": "Manihot esculenta",
+      "category": "Tuber",
+      "temperature_c": {
+        "min_abs": 16.0,
+        "min_opt": 22.0,
+        "max_opt": 32.0,
+        "max_abs": 38.0
+      },
+      "soil_ph": {
+        "min_abs": 4.5,
+        "min_opt": 5.5,
+        "max_opt": 7.0,
+        "max_abs": 8.0
+      },
+      "soil_moisture_vwc": {
+        "min_abs": 15.0,
+        "min_opt": 30.0,
+        "max_opt": 55.0,
+        "max_abs": 75.0
+      },
+      "seasonal_rainfall_mm": {
+        "min_abs": 400.0,
+        "min_opt": 600.0,
+        "max_opt": 1500.0,
+        "max_abs": 2500.0
+      },
+      "max_ec_ds_m": 2.5,
+      "gdd": {
+        "t_base": 12.0,
+        "maturity_gdd": 2200.0
+      },
+      "kc": {
+        "initial": 0.30,
+        "mid": 1.10,
+        "late": 0.50
+      },
+      "nutrient_demand_kg_ha": {
+        "n": 80.0,
+        "p": 40.0,
+        "k": 100.0
+      },
+      "yield_potential_ton_ha": {
+        "pessimistic": 15.0,
+        "normal": 25.0,
+        "optimistic": 40.0
+      },
+      "growth_duration_days": 240
+    },
+    {
+      "crop_id": "kentang",
+      "name": "Kentang",
+      "scientific_name": "Solanum tuberosum",
+      "category": "Tuber",
+      "temperature_c": {
+        "min_abs": 10.0,
+        "min_opt": 15.0,
+        "max_opt": 21.0,
+        "max_abs": 28.0
+      },
+      "soil_ph": {
+        "min_abs": 5.0,
+        "min_opt": 5.5,
+        "max_opt": 6.5,
+        "max_abs": 7.2
+      },
+      "soil_moisture_vwc": {
+        "min_abs": 30.0,
+        "min_opt": 45.0,
+        "max_opt": 65.0,
+        "max_abs": 80.0
+      },
+      "seasonal_rainfall_mm": {
+        "min_abs": 350.0,
+        "min_opt": 500.0,
+        "max_opt": 900.0,
+        "max_abs": 1400.0
+      },
+      "max_ec_ds_m": 1.7,
+      "gdd": {
+        "t_base": 7.0,
+        "maturity_gdd": 1300.0
+      },
+      "kc": {
+        "initial": 0.50,
+        "mid": 1.15,
+        "late": 0.75
+      },
+      "nutrient_demand_kg_ha": {
+        "n": 160.0,
+        "p": 100.0,
+        "k": 180.0
+      },
+      "yield_potential_ton_ha": {
+        "pessimistic": 12.0,
+        "normal": 20.0,
+        "optimistic": 30.0
+      },
+      "growth_duration_days": 110
+    },
+    {
+      "crop_id": "cabai_rawit",
+      "name": "Cabai Rawit",
+      "scientific_name": "Capsicum frutescens",
+      "category": "Horticulture",
+      "temperature_c": {
+        "min_abs": 15.0,
+        "min_opt": 21.0,
+        "max_opt": 30.0,
+        "max_abs": 36.0
+      },
+      "soil_ph": {
+        "min_abs": 5.5,
+        "min_opt": 6.0,
+        "max_opt": 6.8,
+        "max_abs": 7.2
+      },
+      "soil_moisture_vwc": {
+        "min_abs": 22.0,
+        "min_opt": 38.0,
+        "max_opt": 65.0,
+        "max_abs": 80.0
+      },
+      "seasonal_rainfall_mm": {
+        "min_abs": 400.0,
+        "min_opt": 600.0,
+        "max_opt": 1200.0,
+        "max_abs": 1800.0
+      },
+      "max_ec_ds_m": 1.8,
+      "gdd": {
+        "t_base": 12.0,
+        "maturity_gdd": 1600.0
+      },
+      "kc": {
+        "initial": 0.60,
+        "mid": 1.05,
+        "late": 0.85
+      },
+      "nutrient_demand_kg_ha": {
+        "n": 170.0,
+        "p": 110.0,
+        "k": 160.0
+      },
+      "yield_potential_ton_ha": {
+        "pessimistic": 6.0,
+        "normal": 10.0,
+        "optimistic": 15.0
+      },
+      "growth_duration_days": 135
+    },
+    {
+      "crop_id": "kacang_hijau",
+      "name": "Kacang Hijau",
+      "scientific_name": "Vigna radiata",
+      "category": "Legume",
+      "temperature_c": {
+        "min_abs": 18.0,
+        "min_opt": 24.0,
+        "max_opt": 32.0,
+        "max_abs": 38.0
+      },
+      "soil_ph": {
+        "min_abs": 5.5,
+        "min_opt": 6.0,
+        "max_opt": 7.0,
+        "max_abs": 7.5
+      },
+      "soil_moisture_vwc": {
+        "min_abs": 18.0,
+        "min_opt": 28.0,
+        "max_opt": 52.0,
+        "max_abs": 70.0
+      },
+      "seasonal_rainfall_mm": {
+        "min_abs": 250.0,
+        "min_opt": 400.0,
+        "max_opt": 700.0,
+        "max_abs": 1000.0
+      },
+      "max_ec_ds_m": 2.0,
+      "gdd": {
+        "t_base": 10.0,
+        "maturity_gdd": 900.0
+      },
+      "kc": {
+        "initial": 0.40,
+        "mid": 1.05,
+        "late": 0.45
+      },
+      "nutrient_demand_kg_ha": {
+        "n": 25.0,
+        "p": 45.0,
+        "k": 50.0
+      },
+      "yield_potential_ton_ha": {
+        "pessimistic": 1.1,
+        "normal": 1.6,
+        "optimistic": 2.3
+      },
+      "growth_duration_days": 60
+    },
+    {
+      "crop_id": "terung",
+      "name": "Terung Ungu",
+      "scientific_name": "Solanum melongena",
+      "category": "Horticulture",
+      "temperature_c": {
+        "min_abs": 15.0,
+        "min_opt": 22.0,
+        "max_opt": 31.0,
+        "max_abs": 36.0
+      },
+      "soil_ph": {
+        "min_abs": 5.5,
+        "min_opt": 6.0,
+        "max_opt": 6.8,
+        "max_abs": 7.2
+      },
+      "soil_moisture_vwc": {
+        "min_abs": 25.0,
+        "min_opt": 42.0,
+        "max_opt": 68.0,
+        "max_abs": 80.0
+      },
+      "seasonal_rainfall_mm": {
+        "min_abs": 350.0,
+        "min_opt": 500.0,
+        "max_opt": 1000.0,
+        "max_abs": 1600.0
+      },
+      "max_ec_ds_m": 2.5,
+      "gdd": {
+        "t_base": 12.0,
+        "maturity_gdd": 1400.0
+      },
+      "kc": {
+        "initial": 0.50,
+        "mid": 1.10,
+        "late": 0.80
+      },
+      "nutrient_demand_kg_ha": {
+        "n": 130.0,
+        "p": 80.0,
+        "k": 140.0
+      },
+      "yield_potential_ton_ha": {
+        "pessimistic": 15.0,
+        "normal": 24.0,
+        "optimistic": 35.0
+      },
+      "growth_duration_days": 90
+    },
+    {
+      "crop_id": "kangkung",
+      "name": "Kangkung Darat",
+      "scientific_name": "Ipomoea aquatica",
+      "category": "Horticulture",
+      "temperature_c": {
+        "min_abs": 18.0,
+        "min_opt": 25.0,
+        "max_opt": 33.0,
+        "max_abs": 38.0
+      },
+      "soil_ph": {
+        "min_abs": 5.5,
+        "min_opt": 6.0,
+        "max_opt": 7.0,
+        "max_abs": 7.5
+      },
+      "soil_moisture_vwc": {
+        "min_abs": 30.0,
+        "min_opt": 50.0,
+        "max_opt": 75.0,
+        "max_abs": 88.0
+      },
+      "seasonal_rainfall_mm": {
+        "min_abs": 200.0,
+        "min_opt": 350.0,
+        "max_opt": 800.0,
+        "max_abs": 1200.0
+      },
+      "max_ec_ds_m": 2.0,
+      "gdd": {
+        "t_base": 10.0,
+        "maturity_gdd": 450.0
+      },
+      "kc": {
+        "initial": 0.50,
+        "mid": 1.05,
+        "late": 0.95
+      },
+      "nutrient_demand_kg_ha": {
+        "n": 70.0,
+        "p": 40.0,
+        "k": 60.0
+      },
+      "yield_potential_ton_ha": {
+        "pessimistic": 10.0,
+        "normal": 15.0,
+        "optimistic": 22.0
+      },
+      "growth_duration_days": 25
+    },
+    {
+      "crop_id": "kubis",
+      "name": "Kubis (Kol)",
+      "scientific_name": "Brassica oleracea var. capitata",
+      "category": "Horticulture",
+      "temperature_c": {
+        "min_abs": 8.0,
+        "min_opt": 14.0,
+        "max_opt": 20.0,
+        "max_abs": 27.0
+      },
+      "soil_ph": {
+        "min_abs": 5.6,
+        "min_opt": 6.2,
+        "max_opt": 6.8,
+        "max_abs": 7.5
+      },
+      "soil_moisture_vwc": {
+        "min_abs": 30.0,
+        "min_opt": 48.0,
+        "max_opt": 70.0,
+        "max_abs": 82.0
+      },
+      "seasonal_rainfall_mm": {
+        "min_abs": 350.0,
+        "min_opt": 500.0,
+        "max_opt": 900.0,
+        "max_abs": 1400.0
+      },
+      "max_ec_ds_m": 2.8,
+      "gdd": {
+        "t_base": 7.0,
+        "maturity_gdd": 1200.0
+      },
+      "kc": {
+        "initial": 0.50,
+        "mid": 1.10,
+        "late": 0.90
+      },
+      "nutrient_demand_kg_ha": {
+        "n": 150.0,
+        "p": 90.0,
+        "k": 150.0
+      },
+      "yield_potential_ton_ha": {
+        "pessimistic": 18.0,
+        "normal": 30.0,
+        "optimistic": 45.0
+      },
+      "growth_duration_days": 80
+    },
+    {
+      "crop_id": "wortel",
+      "name": "Wortel",
+      "scientific_name": "Daucus carota",
+      "category": "Tuber",
+      "temperature_c": {
+        "min_abs": 9.0,
+        "min_opt": 15.0,
+        "max_opt": 21.0,
+        "max_abs": 26.0
+      },
+      "soil_ph": {
+        "min_abs": 5.5,
+        "min_opt": 6.0,
+        "max_opt": 6.8,
+        "max_abs": 7.3
+      },
+      "soil_moisture_vwc": {
+        "min_abs": 25.0,
+        "min_opt": 42.0,
+        "max_opt": 65.0,
+        "max_abs": 78.0
+      },
+      "seasonal_rainfall_mm": {
+        "min_abs": 300.0,
+        "min_opt": 450.0,
+        "max_opt": 800.0,
+        "max_abs": 1200.0
+      },
+      "max_ec_ds_m": 2.0,
+      "gdd": {
+        "t_base": 7.0,
+        "maturity_gdd": 1150.0
+      },
+      "kc": {
+        "initial": 0.45,
+        "mid": 1.05,
+        "late": 0.75
+      },
+      "nutrient_demand_kg_ha": {
+        "n": 110.0,
+        "p": 80.0,
+        "k": 140.0
+      },
+      "yield_potential_ton_ha": {
+        "pessimistic": 14.0,
+        "normal": 22.0,
+        "optimistic": 32.0
+      },
+      "growth_duration_days": 95
+    },
+    {
+      "crop_id": "semangka",
+      "name": "Semangka",
+      "scientific_name": "Citrullus lanatus",
+      "category": "Horticulture",
+      "temperature_c": {
+        "min_abs": 18.0,
+        "min_opt": 24.0,
+        "max_opt": 32.0,
+        "max_abs": 38.0
+      },
+      "soil_ph": {
+        "min_abs": 5.5,
+        "min_opt": 6.0,
+        "max_opt": 6.8,
+        "max_abs": 7.2
+      },
+      "soil_moisture_vwc": {
+        "min_abs": 20.0,
+        "min_opt": 35.0,
+        "max_opt": 55.0,
+        "max_abs": 70.0
+      },
+      "seasonal_rainfall_mm": {
+        "min_abs": 250.0,
+        "min_opt": 400.0,
+        "max_opt": 750.0,
+        "max_abs": 1100.0
+      },
+      "max_ec_ds_m": 2.5,
+      "gdd": {
+        "t_base": 12.0,
+        "maturity_gdd": 1250.0
+      },
+      "kc": {
+        "initial": 0.45,
+        "mid": 1.00,
+        "late": 0.75
+      },
+      "nutrient_demand_kg_ha": {
+        "n": 120.0,
+        "p": 75.0,
+        "k": 150.0
+      },
+      "yield_potential_ton_ha": {
+        "pessimistic": 18.0,
+        "normal": 28.0,
+        "optimistic": 42.0
+      },
+      "growth_duration_days": 75
+    }
+  ]
+}

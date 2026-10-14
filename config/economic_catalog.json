@@ -1,0 +1,142 @@
+{
+  "version": "1.1.0",
+  "currency": "IDR",
+  "commodities": {
+    "padi_sawah": {
+      "price_per_ton": {
+        "pessimistic": 5500000.0,
+        "normal": 6500000.0,
+        "optimistic": 7500000.0
+      },
+      "production_cost_per_ha": 18000000.0
+    },
+    "jagung_hibrida": {
+      "price_per_ton": {
+        "pessimistic": 4200000.0,
+        "normal": 5000000.0,
+        "optimistic": 6000000.0
+      },
+      "production_cost_per_ha": 16000000.0
+    },
+    "kedelai": {
+      "price_per_ton": {
+        "pessimistic": 9500000.0,
+        "normal": 11500000.0,
+        "optimistic": 13500000.0
+      },
+      "production_cost_per_ha": 13000000.0
+    },
+    "kacang_tanah": {
+      "price_per_ton": {
+        "pessimistic": 12000000.0,
+        "normal": 15000000.0,
+        "optimistic": 18000000.0
+      },
+      "production_cost_per_ha": 15000000.0
+    },
+    "cabai_merah": {
+      "price_per_ton": {
+        "pessimistic": 20000000.0,
+        "normal": 35000000.0,
+        "optimistic": 55000000.0
+      },
+      "production_cost_per_ha": 75000000.0
+    },
+    "tomat": {
+      "price_per_ton": {
+        "pessimistic": 4000000.0,
+        "normal": 7000000.0,
+        "optimistic": 11000000.0
+      },
+      "production_cost_per_ha": 45000000.0
+    },
+    "sawi_hijau": {
+      "price_per_ton": {
+        "pessimistic": 3500000.0,
+        "normal": 6000000.0,
+        "optimistic": 9000000.0
+      },
+      "production_cost_per_ha": 30000000.0
+    },
+    "bawang_merah": {
+      "price_per_ton": {
+        "pessimistic": 18000000.0,
+        "normal": 30000000.0,
+        "optimistic": 45000000.0
+      },
+      "production_cost_per_ha": 80000000.0
+    },
+    "singkong": {
+      "price_per_ton": {
+        "pessimistic": 1200000.0,
+        "normal": 1800000.0,
+        "optimistic": 2400000.0
+      },
+      "production_cost_per_ha": 14000000.0
+    },
+    "kentang": {
+      "price_per_ton": {
+        "pessimistic": 8000000.0,
+        "normal": 12000000.0,
+        "optimistic": 18000000.0
+      },
+      "production_cost_per_ha": 65000000.0
+    },
+    "cabai_rawit": {
+      "price_per_ton": {
+        "pessimistic": 25000000.0,
+        "normal": 42000000.0,
+        "optimistic": 65000000.0
+      },
+      "production_cost_per_ha": 68000000.0
+    },
+    "kacang_hijau": {
+      "price_per_ton": {
+        "pessimistic": 14000000.0,
+        "normal": 18000000.0,
+        "optimistic": 22000000.0
+      },
+      "production_cost_per_ha": 10000000.0
+    },
+    "terung": {
+      "price_per_ton": {
+        "pessimistic": 3500000.0,
+        "normal": 5500000.0,
+        "optimistic": 8000000.0
+      },
+      "production_cost_per_ha": 38000000.0
+    },
+    "kangkung": {
+      "price_per_ton": {
+        "pessimistic": 3000000.0,
+        "normal": 5000000.0,
+        "optimistic": 7500000.0
+      },
+      "production_cost_per_ha": 20000000.0
+    },
+    "kubis": {
+      "price_per_ton": {
+        "pessimistic": 2500000.0,
+        "normal": 4500000.0,
+        "optimistic": 7000000.0
+      },
+      "production_cost_per_ha": 42000000.0
+    },
+    "wortel": {
+      "price_per_ton": {
+        "pessimistic": 4000000.0,
+        "normal": 7000000.0,
+        "optimistic": 10500000.0
+      },
+      "production_cost_per_ha": 40000000.0
+    },
+    "semangka": {
+      "price_per_ton": {
+        "pessimistic": 3000000.0,
+        "normal": 5000000.0,
+        "optimistic": 7500000.0
+      },
+      "production_cost_per_ha": 35000000.0
+    }
+  }
+}
